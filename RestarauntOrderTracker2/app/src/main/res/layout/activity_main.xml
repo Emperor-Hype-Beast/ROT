@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="848dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="200dp"
+        android:text="The Restaurant Order Tracker"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="italic"></TextView>
+
+    <ImageView
+        android:layout_width="1192dp"
+        android:layout_height="1436dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/pic5">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="200dp"
+        android:text="Signup"
+        android:textSize="35dp"
+        >
+    </Button>
+
+    <Button
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1000dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="200dp"
+        android:text="Login"
+        android:textSize="35dp"
+        >
+    </Button>
